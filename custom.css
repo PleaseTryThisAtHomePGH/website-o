@@ -222,3 +222,12 @@ a.article:hover {
 #content h2,h3 {
 	color:#fff;
 }
+
+::selection {
+  background: #B74B6E;
+  color:#fff; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #B74B6E;
+  color:#fff; /* Gecko Browsers */
+}
